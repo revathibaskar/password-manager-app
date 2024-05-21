@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-logo-style {
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.bg-top-container {
+  background-color: #5763a5;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.pass-man-sm-style {
+  width: 100%;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .pass-man-sm-style {
+    display: none;
+  }
+}
+
+.bg-form {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-form {
+    width: 50%;
+  }
+}
+
+.form-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.input-img-style {
+  width: 40px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.input-style {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #94a3b8;
+  height: 50px;
+}
+
+.add-btn-style {
+  background-color: #0b69ff;
+  height: 35px;
+  width: 120px;
+  padding: 7px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  align-self: flex-end;
+}
+
+.pass-man-lg-style {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .pass-man-lg-style {
+    display: inline;
+    width: 50%;
+  }
+}
+
+.bg-bottom-container {
+  background-color: #5763a5;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.password-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pass-count-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.password-count {
+  border: 1px solid #b6c3ca;
+  height: 25px;
+  width: 30px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 9px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  margin-left: 10px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.chk-box-style {
+  margin-right: 10px;
+  width: 35px;
+}
+
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-password-style {
+  width: 60%;
+}
+.ul-list-container {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .ul-list-container {
+    flex-direction: row;
+  }
+}
+
+.list-container {
+  border: 2px solid #b6c3ca;
+  border-radius: 7px;
+  padding: 10px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    width: 350px;
+    margin-right: 15px;
+  }
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.initial-style {
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  background-color: #14b8a6;
+  border: none;
+  margin-right: 15px;
+  padding-left: 17px;
+  padding-top: 8px;
+}
+
+.list-head {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.stars-style {
+  width: 90px;
+  color: #ffffff;
+}
+
+.delete-style {
+  width: 35px;
+}
